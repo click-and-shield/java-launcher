@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "launcher-cli", "launcher-cli\launcher-cli.csproj", "{888CE3EA-B628-4934-A4E7-3FDC66A6D0F7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "launcher-gui", "launcher-gui\launcher-gui.csproj", "{29F30318-22CA-4C88-93E1-94A51F34334B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "common", "common\common.csproj", "{FC09ACFA-E0A8-4B3E-9D9A-B7AE44CD9FEC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{888CE3EA-B628-4934-A4E7-3FDC66A6D0F7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{888CE3EA-B628-4934-A4E7-3FDC66A6D0F7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{888CE3EA-B628-4934-A4E7-3FDC66A6D0F7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{888CE3EA-B628-4934-A4E7-3FDC66A6D0F7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{29F30318-22CA-4C88-93E1-94A51F34334B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{29F30318-22CA-4C88-93E1-94A51F34334B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{29F30318-22CA-4C88-93E1-94A51F34334B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{29F30318-22CA-4C88-93E1-94A51F34334B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC09ACFA-E0A8-4B3E-9D9A-B7AE44CD9FEC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC09ACFA-E0A8-4B3E-9D9A-B7AE44CD9FEC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC09ACFA-E0A8-4B3E-9D9A-B7AE44CD9FEC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC09ACFA-E0A8-4B3E-9D9A-B7AE44CD9FEC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
