@@ -5,6 +5,7 @@
       <list>
         <option value="$PROJECT_DIR$/cli/bin/Release/net9.0/win-x64/publish" />
         <option value="$PROJECT_DIR$/gui/bin/Release/net9.0-windows/win-x64/publish" />
+        <option value="$PROJECT_DIR$/releases" />
       </list>
     </option>
   </component>

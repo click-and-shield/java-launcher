@@ -7,8 +7,8 @@ Java applications cannot natively be compiled into executable files.
 While `JPackage` offers a solution, it often falls short, especially when developing graphical applications (e.g., with JavaFX).
 This project provides a simple way to assign an executable to your Java application, whether it's a console-based or graphical application.
 
-* [launcher-cli.exe](cli): Serves as the launcher for Java-based console applications.
-* [launcher-gui.exe](cli): Designed to launch Java-based graphical user interface applications.
+* [Launcher for console applications](launcher-cli): Serves as the launcher for Java-based console applications.
+* [Launcher for Java-based graphical user interface applications](launcher-gui): Designed to launch Java-based graphical user interface applications.
 
 ## How does it work ?
 
