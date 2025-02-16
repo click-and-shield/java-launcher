@@ -7,10 +7,15 @@ using common;
 internal static class Program {
     [STAThread]
     public static void Main(string[] args) {
-        _launchJavaFxApp(args);
+        try {
+            _launchJavaConsoleApp(args);    
+        }
+        catch (Exception e) {
+            Console.WriteLine(e.Message);
+        }
     }
     
-    private static void _launchJavaFxApp(string[] args) {
+    private static void _launchJavaConsoleApp(string[] args) {
         try {
             Console.WriteLine("Launching JavaFX application...");
 #pragma warning disable CS8602
