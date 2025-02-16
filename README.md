@@ -12,9 +12,11 @@ This project provides a simple way to assign an executable to your Java applicat
 
 ## How does it work ?
 
-The launcher is an executable that constructs a command line to start the Java application based on a configuration file (which must be named `config.json`).
-This configuration file specifies the parameters required to build the command line. The key parameters are as follows:
+The launcher is an executable designed to construct a command line for starting a Java application based on a configuration file.
 
+> *This file, named `config.json`, must be located in the same directory as the launcher executable*.
+
+The configuration file outlines the necessary parameters to generate the command line. Key parameters include:
 | **Parameter**    | **Description**                                                                                                                                                            |
 |------------------|----------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | JavaHomePath     | Specifies the path to the directory containing the JVM required to run the Java application. The launcher will look for the `java.exe` executable within the `bin` folder. |
@@ -24,7 +26,7 @@ This configuration file specifies the parameters required to build the command l
 | MainClass        | Represents the main class serving as the entry point for the Java application.                                                                                             |
 
 Using these parameters, the launcher can assemble and execute the command line needed to start the Java application.
-The configuration file uses the JSON format. Here is an example:
+The configuration file `config.json` uses the JSON format. Here is an example:
 
 ```json
 {
@@ -86,7 +88,7 @@ app_dir
 ```
 
 **Key Notes**:
-- The launcher executable must reside in the same directory as its configuration file (`config.json`).
+- The launcher executable must reside *in the same directory as its configuration file* (`config.json`).
 - If the configuration file includes absolute paths, these will be used as-is. However, if it contains relative 
   paths, they will be interpreted relative to the directory containing the configuration file.
 
@@ -112,3 +114,12 @@ Then:
 2. Update the "`config.json`" configuration file by specifying a value for the "`JavaHomePath`" entry.
    Keep in mind that the launcher will look for the `java.exe` executable within the `bin` folder under
    the directory specified by the "`JavaHomePath`" entry.  
+
+## Executing the launcher
+
+Just run the executable.
+
+> When running the launcher designed for Java-based graphical user interface applications, 
+> any errors encountered will be logged in a file named `error.log`, located in the same 
+> directory as the launcher.
+
